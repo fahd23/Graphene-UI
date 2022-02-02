@@ -30,4 +30,10 @@
   --font-regular: 400;
   --font-semiBold: 600;
   --font-bold: 700;
+
+  --gu-green: #008000;
+  --gu-red: #ff0000;
+  --gu-white: #ffffff;
+  --gu-grey: #808080;
+  --gu-l-green: #55dd33;
 }

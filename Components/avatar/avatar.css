@@ -1,19 +1,19 @@
 .avatar {
-  width: 45px;
-  height: 45px;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
 }
 .avtr-sm {
-  width: 30px;
-  height: 30px;
+  width: 1.9rem;
+  height: 1.9rem;
 }
 .avtr-lg {
-  width: 70px;
-  height: 70px;
+  width: 4.3rem;
+  height: 4.3rem;
 }
 .avtr-md {
-  width: 55px;
-  height: 55px;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 .sq-avtr {
   border-radius: 5px;
