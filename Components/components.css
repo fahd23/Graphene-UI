@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url(./reset.css);
+@import url(../components/avatar/avatar.css);
+@import url(../components/badge/badge.css);
+
+:root {
+  --black: #1f1d1d;
+  --white: #ffffff;
+  --lynxWhite: #f8f8f8;
+  --grey: #262f44;
+  --darkBlue: #007bb5;
+  --green: #20aa20;
+  --darkRed: #9b1e1e;
+  --red: #ff0000;
+  --lightRed: #f3a09cf8;
+  --darkYellow: #a88c18;
+  --lightBlue: #89c3df;
+
+  --success: #22c55e;
+  --danger: #dc2626;
+  --warning: #facc15;
+  --default: #414752;
+  --link: #06aed8;
+  --darkOrange: #e67a00;
+  --lightGrey: #c2c2c2;
+  --darkGreen: #008000;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semiBold: 600;
+  --font-bold: 700;
+}

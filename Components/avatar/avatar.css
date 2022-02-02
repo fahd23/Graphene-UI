@@ -1,0 +1,20 @@
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.avtr-sm {
+  width: 30px;
+  height: 30px;
+}
+.avtr-lg {
+  width: 70px;
+  height: 70px;
+}
+.avtr-md {
+  width: 55px;
+  height: 55px;
+}
+.sq-avtr {
+  border-radius: 5px;
+}
