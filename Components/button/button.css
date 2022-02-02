@@ -1,0 +1,93 @@
+.btn {
+  padding: 0.8rem 1.7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 0;
+  margin: 4px;
+}
+/* different types of buttons */
+.primary {
+  background: var(--blue-violet);
+  color: var(--white);
+}
+.secondary {
+  background: var(--blue-color);
+  color: var(--white);
+}
+.danger {
+  background: var(--danger);
+  color: var(--white);
+}
+.warning {
+  background: var(--warning);
+  color: var(--white);
+}
+.success {
+  background: var(--success);
+  color: var(--white);
+}
+.default {
+  background: var(--default);
+  color: var(--white);
+}
+/* link button */
+.link-btn {
+  display: inline-block;
+  padding: 0.75rem 1.6rem;
+  border-radius: 5px;
+  border: 0;
+  background: var(--link);
+  color: var(--white);
+  text-decoration: none;
+  margin: 4px;
+}
+/* different types of outlined button */
+.outlined-primary {
+  background: transparent;
+  color: var(--blue-violet);
+  border: 2px solid var(--blue-violet);
+}
+.outlined-secondary {
+  background: transparent;
+  color: var(--blue-color);
+  border: 2px solid var(--blue-color);
+}
+.outlined-danger {
+  background: transparent;
+  color: var(--danger);
+  border: 2px solid var(--danger);
+}
+.outlined-warning {
+  background: transparent;
+  color: var(--warning);
+  border: 2px solid var(--warning);
+}
+.outlined-success {
+  background: transparent;
+  color: var(--success);
+  border: 2px solid var(--success);
+}
+.outlined-default {
+  background: transparent;
+  color: var(--default);
+  border: 2px solid var(--default);
+}
+.btn-icon {
+  padding: 0.8rem 1.3rem;
+  display: inline-flex;
+  gap: 10px;
+}
+.btn-floating {
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  background: var(--success);
+  border: 3px solid var(--white);
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px 2px var(--light-green);
+  color: var(--white);
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  transition: transform 0.3s;
+}

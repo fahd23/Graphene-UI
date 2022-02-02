@@ -3,25 +3,29 @@
 @import url(./reset.css);
 @import url(../components/avatar/avatar.css);
 @import url(../components/badge/badge.css);
+@import url(../Components/alert/alert.css);
+@import url(../Components/button/button.css);
 
 :root {
   --black: #1f1d1d;
   --white: #ffffff;
   --lynxWhite: #f8f8f8;
-  --grey: #262f44;
-  --darkBlue: #007bb5;
-  --green: #20aa20;
-  --darkRed: #9b1e1e;
-  --red: #ff0000;
-  --lightRed: #f3a09cf8;
-  --darkYellow: #a88c18;
-  --lightBlue: #89c3df;
+  --blue-color: #2b59ec;
+  --blue-violet: blueviolet;
+  --light-green: #88e7b0;
+  --dark-green: #008000;
+  --light-red: #ffc3c3;
+  --dark-red: #b80000;
+  --light-yellow: #f6ff75;
+  --dark-yellow: #5a6400;
+  --light-blue: #95cfff;
+  --dark-blue: #003858;
 
   --success: #22c55e;
   --danger: #dc2626;
   --warning: #facc15;
   --default: #414752;
-  --link: #06aed8;
+  --link: #0489aa;
   --darkOrange: #e67a00;
   --lightGrey: #c2c2c2;
   --darkGreen: #008000;
