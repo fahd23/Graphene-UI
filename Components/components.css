@@ -8,10 +8,10 @@
 
 :root {
   --black: #1f1d1d;
-  --white: #ffffff;
-  --lynxWhite: #f8f8f8;
+  --white: #f7f1f1;
+  --lynx-white: #f8f8f8;
   --blue-color: #2b59ec;
-  --blue-violet: blueviolet;
+  --blue-violet: #8a2be2;
   --light-green: #88e7b0;
   --dark-green: #008000;
   --light-red: #ffc3c3;
@@ -35,9 +35,9 @@
   --font-semiBold: 600;
   --font-bold: 700;
 
-  --gu-green: #008000;
-  --gu-red: #ff0000;
-  --gu-white: #ffffff;
-  --gu-grey: #808080;
+  --gu-green: #068b06;
+  --gu-red: #fa0707;
+  --gu-white: #f5eded;
+  --gu-grey: #969494;
   --gu-l-green: #55dd33;
 }
