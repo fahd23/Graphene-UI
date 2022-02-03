@@ -1,0 +1,50 @@
+.alert {
+  margin: 2rem 1rem;
+  width: 55%;
+  min-width: 15rem;
+  padding: 13px 10px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+/* different types of alerts */
+.success-alert {
+  background: var(--light-green);
+  border: 1px solid var(--dark-green);
+  color: var(--dark-green);
+}
+.danger-alert {
+  background: var(--light-red);
+  border: 1px solid var(--dark-red);
+  color: var(--dark-red);
+}
+.warning-alert {
+  background: var(--light-yellow);
+  color: var(--dark-yellow);
+  border: 1px solid var(--dark-yellow);
+}
+.simple-alert {
+  background: var(--light-blue);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+/* outlined alert */
+
+.outlined-simple-alert {
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+.outlined-warning-alert {
+  color: var(--dark-yellow);
+  border: 1px solid var(--dark-yellow);
+}
+.outlined-success-alert {
+  color: var(--dark-green);
+  border: 1px solid var(--dark-green);
+}
+.outlined-danger-alert {
+  color: var(--dark-red);
+  border: 1px solid var(--dark-red);
+}
