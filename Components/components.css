@@ -5,10 +5,11 @@
 @import url(../components/badge/badge.css);
 @import url(../Components/alert/alert.css);
 @import url(../Components/button/button.css);
+@import url(../Components/card/card.css);
 
 :root {
   --black: #1f1d1d;
-  --white: #f7f1f1;
+  --white: #fafafa;
   --lynx-white: #f8f8f8;
   --blue-color: #2b59ec;
   --blue-violet: #8a2be2;
@@ -26,9 +27,10 @@
   --warning: #facc15;
   --default: #414752;
   --link: #0489aa;
-  --darkOrange: #e67a00;
-  --lightGrey: #c2c2c2;
-  --darkGreen: #008000;
+  --dark-orange: #e67a00;
+  --light-grey: #c2c2c2;
+  --light-grey: #727272;
+  --dark-green: #008000;
 
   --font-light: 300;
   --font-regular: 400;
