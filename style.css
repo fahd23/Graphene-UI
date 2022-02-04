@@ -32,7 +32,6 @@
   --darkYellow: #a88c18;
   --lightBlue: #89c3df;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -60,6 +59,9 @@ iframe {
   margin: 1rem 0 1.5rem;
 }
 /* Utilities */
+.p-bottom-1 {
+  padding-bottom: 1rem;
+}
 .h1 {
   font-weight: 600;
   font-size: 2rem;
