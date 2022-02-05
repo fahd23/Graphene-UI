@@ -1,0 +1,130 @@
+.card {
+  background: var(--white);
+  display: flex;
+  margin: 8px;
+  border-radius: 10px;
+}
+.card-with-shadow {
+  box-shadow: 1px 2px 10px var(--light-grey);
+}
+.horizontal-card-container {
+  width: 30rem;
+}
+.vertical-card-container {
+  flex-direction: column;
+  width: 15rem;
+}
+.horizontal-card-img {
+  width: 11rem;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.vertical-card-img {
+  position: relative;
+  width: 15rem;
+  height: 16rem;
+  border-radius: 10px 10px 0 0;
+}
+.card-badge {
+  z-index: 2;
+  position: absolute;
+  top: 1.2rem;
+  left: 0;
+  background: var(--dark-orange);
+  color: var(--lynx-white);
+  padding: 5px;
+}
+.card-img {
+  position: relative;
+}
+.card-info {
+  margin: 0.5rem 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.subtitle {
+  color: var(--darkgrey);
+}
+.card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: auto;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn-link {
+  background: transparent;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.call-to-action {
+  margin-top: 1rem;
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+.call-to-action:hover {
+  background-color: var(--gu-l-green);
+}
+.not-call-to-action {
+  margin-top: 1rem;
+}
+.not-call-to-action:hover {
+  background-color: var(--gu-grey);
+}
+.vertical-card-btn {
+  width: 100%;
+}
+.actual-price {
+  display: inline;
+  margin-right: 4px;
+  color: var(--gu-grey);
+  text-decoration: line-through;
+}
+.disc-price {
+  margin-right: 4px;
+  display: inline;
+}
+.offer-info {
+  margin-right: 4px;
+  display: inline;
+  color: var(--dark-green);
+}
+.dismiss-btn {
+  background: transparent;
+  font-size: 1.2rem;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+/* text overlay card */
+.card-head-info {
+  color: var(--white);
+  z-index: 2;
+  position: absolute;
+  bottom: 18px;
+  left: 10px;
+}
+.card-head-info .subtitle {
+  color: var(--lynx-white);
+}
+/* text-only-card */
+.text-only-card {
+  flex-direction: column;
+  width: 20rem;
+  padding: 1.5rem;
+}
+.card-dismiss-btn {
+  background: transparent;
+  margin-left: auto;
+  font-size: 1.3rem;
+  border: 0;
+}

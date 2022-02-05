@@ -86,7 +86,7 @@ iframe {
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 5;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
