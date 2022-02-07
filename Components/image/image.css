@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.img-rounded {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.img-squared {
+  width: 150px;
+  height: 150px;
+  border-radius: 2px;
+}
+.img-responsive {
+  width: 100%;
+  border-radius: 2px;
+  object-fit: cover;
+}
