@@ -10,7 +10,7 @@
 }
 :root {
   --primary-color: #f3f3f3;
-  --secondary-color: #e2eed7;
+  --secondary-color: #eeeeee;
   --text-color: #222222;
   --green-color: #f1f7ed;
   --blue-color: #4363ad;
@@ -136,8 +136,8 @@ iframe {
   flex-wrap: nowrap;
   flex-direction: column;
   gap: 10px;
-  z-index: 2;
-  font-size: 1rem;
+  z-index: 5;
+  font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 600;
   min-width: 18%;
@@ -148,12 +148,14 @@ iframe {
 }
 .sidebar-subtitle {
   color: var(--black);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-decoration: underline;
 }
 
 .sidebar-link:hover {
+  padding-left: 2px;
   color: var(--hover-color);
+  border-radius: 5px;
 }
 .docs {
   padding: 2rem;
@@ -212,32 +214,32 @@ iframe {
 }
 @media only screen and (max-width: 600px) {
   .head-title {
-    font-size: 1.6rem;
+    font-size: 1.63rem;
   }
   .h1 {
-    font-size: 1.5rem;
+    font-size: 1.54rem;
   }
   .h2 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
   .p-s {
     font-size: 1rem;
   }
   .p-md {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
 }
 @media only screen and (max-width: 400px) {
   .h1 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
   .h2 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
   .p-s {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .p-md {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 }
