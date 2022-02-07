@@ -7,3 +7,8 @@
   border-radius: 10px;
   box-shadow: 1px 1px 10px var(--light-grey);
 }
+.para-sm,
+.para-lg,
+.para-md {
+  margin: 1rem;
+}

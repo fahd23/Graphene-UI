@@ -9,22 +9,23 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #f0f0f0;
-  --secondary-color: #e7e7e7;
+  --primary-color: #f9f7f7;
+  --secondary-color: #dbe2ef;
   --text-color: #222222;
+  --accent-color: #112d4e;
+  --dark-blue: #3f72af;
+
   --green-color: #f1f7ed;
   --blue-color: #4363ad;
   --hover-color: #4caf05;
   --navbar-height: 10vh;
   --gu-green-color: #528d52;
-
   /* color */
 
   --black: #1f1d1d;
   --white: #fffefe;
   --lynxWhite: #f8f8f8;
-  --grey: #262f44;
-  --darkBlue: #007bb5;
+  --grey: #575757;
   --green: #20aa20;
   --darkRed: #9b1e1e;
   --red: #ff0000;
@@ -39,7 +40,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-size: 100%;
-  background: var(--primary-color);
+  background: var(--white);
 }
 a {
   display: inline-block;
@@ -93,11 +94,13 @@ iframe {
   align-items: center;
   width: 100%;
   height: var(--navbar-height);
-  color: var(--text-color);
-  background: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--accent-color);
   font-size: 1.5rem;
   padding: 0 3rem;
-  box-shadow: 1px 2px 5px var(--secondary-color);
+}
+.navbar a {
+  color: var(--primary-color);
 }
 .header-logo {
   display: flex;
@@ -112,7 +115,7 @@ iframe {
 }
 #btn-ham-burger {
   background-color: transparent;
-  color: var(--text-color);
+  color: var(--primary-color);
   border: 0;
   font-size: 1.6rem;
   margin-right: 2rem;
@@ -143,18 +146,17 @@ iframe {
   min-width: 18%;
   height: calc(100vh - var(--navbar-height));
   overflow-y: auto;
-  box-shadow: 0 2px 5px -2px var(--secondary-color);
-  clip-path: inset(0px -15px 0px 0px);
+  background-color: var(--secondary-color);
 }
 .sidebar-subtitle {
-  color: var(--black);
+  color: var(--dark-blue);
   font-size: 1.4rem;
   text-decoration: underline;
 }
 
 .sidebar-link:hover {
   padding-left: 2px;
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 .docs {
   padding: 2rem;
@@ -167,7 +169,7 @@ iframe {
 .gu-icon-container {
   margin: 1rem auto;
   background: var(--secondary-color);
-  box-shadow: 2px 1px 10px var(--gu-green-color);
+  box-shadow: 2px 1px 10px var(--accent-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,7 +181,7 @@ iframe {
 .gu-icon-container-clm {
   margin: 1.5rem auto;
   background: var(--secondary-color);
-  box-shadow: 2px 1px 10px var(--gu-green-color);
+  box-shadow: 2px 1px 10px var(--accent-color);
   display: flex;
   justify-content: center;
   align-items: center;
