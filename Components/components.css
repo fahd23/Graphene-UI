@@ -6,6 +6,8 @@
 @import url(../Components/alert/alert.css);
 @import url(../Components/button/button.css);
 @import url(../Components/card/card.css);
+@import url(../Components/image/image.css);
+@import url(../Components/input/input.css);
 
 :root {
   --black: #1f1d1d;
