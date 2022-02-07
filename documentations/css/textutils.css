@@ -1,0 +1,9 @@
+@import url(../../Components/components.css);
+@import url(../../style.css);
+
+.textUtils-container {
+  padding: 2rem;
+  background: var(--secondary-color);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px var(--light-grey);
+}

@@ -8,6 +8,7 @@
 @import url(../Components/card/card.css);
 @import url(../Components/image/image.css);
 @import url(../Components/input/input.css);
+@import url(../Components/text-utils/textutils.css);
 
 :root {
   --black: #1f1d1d;
@@ -31,7 +32,6 @@
   --link: #0489aa;
   --dark-orange: #e67a00;
   --light-grey: #c2c2c2;
-  --light-grey: #727272;
   --dark-green: #008000;
 
   --font-light: 300;
