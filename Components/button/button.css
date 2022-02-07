@@ -1,5 +1,5 @@
 .btn {
-  padding: 0.8rem 1.7rem;
+  padding: 0.6rem 1.25rem;
   font-size: 1rem;
   border-radius: 5px;
   border: 0;
@@ -33,7 +33,7 @@
 /* link button */
 .link-btn {
   display: inline-block;
-  padding: 0.75rem 1.6rem;
+  padding: 0.6rem 1.25rem;
   border-radius: 5px;
   border: 0;
   background: var(--link);
@@ -45,35 +45,34 @@
 .outlined-primary {
   background: transparent;
   color: var(--blue-violet);
-  border: 2px solid var(--blue-violet);
+  border: 1px solid var(--blue-violet);
 }
 .outlined-secondary {
   background: transparent;
   color: var(--blue-color);
-  border: 2px solid var(--blue-color);
+  border: 1px solid var(--blue-color);
 }
 .outlined-danger {
   background: transparent;
   color: var(--danger);
-  border: 2px solid var(--danger);
+  border: 1px solid var(--danger);
 }
 .outlined-warning {
   background: transparent;
   color: var(--warning);
-  border: 2px solid var(--warning);
+  border: 1px solid var(--warning);
 }
 .outlined-success {
   background: transparent;
   color: var(--success);
-  border: 2px solid var(--success);
+  border: 1px solid var(--success);
 }
 .outlined-default {
   background: transparent;
   color: var(--default);
-  border: 2px solid var(--default);
+  border: 1px solid var(--default);
 }
 .btn-icon {
-  padding: 0.8rem 1.3rem;
   display: inline-flex;
   gap: 10px;
 }
