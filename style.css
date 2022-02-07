@@ -10,7 +10,7 @@
 }
 :root {
   --primary-color: #f3f3f3;
-  --secondary-color: #eeeeee;
+  --secondary-color: #e2eed7;
   --text-color: #222222;
   --green-color: #f1f7ed;
   --blue-color: #4363ad;
@@ -155,7 +155,6 @@ iframe {
 .sidebar-link:hover {
   padding-left: 2px;
   color: var(--hover-color);
-  border-radius: 5px;
 }
 .docs {
   padding: 2rem;
