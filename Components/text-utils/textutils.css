@@ -1,0 +1,46 @@
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5 {
+  padding: 0;
+  font-weight: 400;
+  margin: 0;
+}
+.heading-1 {
+  font-size: 4.5rem;
+}
+.heading-2 {
+  font-size: 3.7rem;
+}
+.heading-3 {
+  font-size: 3rem;
+}
+.heading-4 {
+  font-size: 2.5rem;
+}
+.heading-5 {
+  font-size: 2rem;
+}
+
+.p-sm {
+  font-size: 1.1rem;
+}
+.p-md {
+  font-size: 1.5rem;
+}
+.p-lg {
+  font-size: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.grey-text {
+  color: grey;
+}
