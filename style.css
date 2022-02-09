@@ -97,7 +97,7 @@ iframe {
   color: var(--primary-color);
   background: var(--accent-color);
   font-size: 1.5rem;
-  padding: 0 3rem;
+  padding: 0 5rem;
 }
 .navbar a {
   color: var(--primary-color);
@@ -134,7 +134,7 @@ iframe {
 }
 .sidebar {
   position: fixed;
-  padding: 2rem;
+  padding: 2rem 5rem;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -143,7 +143,7 @@ iframe {
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 600;
-  min-width: 18%;
+  min-width: 21%;
   height: calc(100vh - var(--navbar-height));
   overflow-y: auto;
   background-color: var(--secondary-color);
@@ -160,13 +160,14 @@ iframe {
 }
 .docs {
   padding: 2rem;
-  margin-left: 18%;
+  margin-left: 21%;
   flex-grow: 1;
 }
 
 /* docs */
 .docs-display {
-  width: 87%;
+  margin: auto;
+  width: 95%;
 }
 
 .gu-icon-container {
@@ -195,14 +196,18 @@ iframe {
   flex-direction: column;
 }
 /* media Queries */
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .sidebar {
     display: none;
   }
   #btn-ham-burger {
     display: flex;
   }
+  .docs {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
   .head-title {
     font-size: 1.7rem;
   }
@@ -211,9 +216,6 @@ iframe {
   }
   .p-md {
     font-size: 1.2rem;
-  }
-  .docs {
-    margin-left: 0;
   }
 }
 @media only screen and (max-width: 600px) {
