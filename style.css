@@ -165,6 +165,9 @@ iframe {
 }
 
 /* docs */
+.docs-display {
+  width: 87%;
+}
 
 .gu-icon-container {
   margin: 1rem auto;

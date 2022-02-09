@@ -1,0 +1,32 @@
+.toast {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0.8rem;
+  width: 70%;
+  padding: 1rem 1.5rem;
+  box-shadow: 1px 2px 10px var(--gu-grey);
+}
+.toast-btn {
+  background: transparent;
+  margin-left: auto;
+  border: 1px solid transparent;
+  font-size: 1.4rem;
+}
+.white-btn {
+  color: var(--white);
+}
+.success-toast {
+  background: var(--light-green);
+}
+.danger-toast {
+  background: var(--light-red);
+}
+.warning-toast {
+  background: var(--light-yellow);
+}
+.dark-toast {
+  background: var(--black);
+  color: var(--white);
+}
