@@ -9,6 +9,7 @@
 @import url(../Components/image/image.css);
 @import url(../Components/input/input.css);
 @import url(../Components/text-utils/textutils.css);
+@import url(../Components/toast/toast.css);
 
 :root {
   --black: #1f1d1d;
