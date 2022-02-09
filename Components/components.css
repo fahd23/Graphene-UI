@@ -10,6 +10,7 @@
 @import url(../Components/input/input.css);
 @import url(../Components/text-utils/textutils.css);
 @import url(../Components/toast/toast.css);
+@import url(../Components/navbar/navbar.css);
 
 :root {
   --black: #1f1d1d;
