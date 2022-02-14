@@ -27,5 +27,5 @@ To configure and get started follow this steps:
 ```
 #### To import in CSS file, copy this link
 ```
-@import url("https://https://grapheneui.netlify.app/Components/components.css" rel="stylesheet");
+@import url("https://https://grapheneui.netlify.app/Components/components.css");
 ```
