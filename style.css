@@ -97,7 +97,7 @@ iframe {
   color: var(--primary-color);
   background: var(--accent-color);
   font-size: 1.5rem;
-  padding: 0 5rem;
+  padding: 0 2.5rem;
 }
 .navbar a {
   color: var(--primary-color);
@@ -134,7 +134,7 @@ iframe {
 }
 .sidebar {
   position: fixed;
-  padding: 2rem 5rem;
+  padding: 2rem 2.55rem;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -143,7 +143,7 @@ iframe {
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 600;
-  min-width: 21%;
+  min-width: 18%;
   height: calc(100vh - var(--navbar-height));
   overflow-y: auto;
   background-color: var(--secondary-color);
@@ -158,9 +158,15 @@ iframe {
   padding-left: 2px;
   color: var(--accent-color);
 }
+.close-sideBar-btn {
+  font-size: 1.5rem;
+  margin-left: auto;
+  display: none;
+  cursor: pointer;
+}
 .docs {
-  padding: 2rem;
-  margin-left: 21%;
+  padding: 1rem;
+  margin-left: 19%;
   flex-grow: 1;
 }
 
@@ -196,7 +202,7 @@ iframe {
   flex-direction: column;
 }
 /* media Queries */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
   .sidebar {
     display: none;
   }
@@ -206,7 +212,11 @@ iframe {
   .docs {
     margin-left: 0;
   }
+  .close-sideBar-btn {
+    display: flex;
+  }
 }
+
 @media only screen and (max-width: 900px) {
   .head-title {
     font-size: 1.7rem;
