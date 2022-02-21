@@ -11,6 +11,7 @@
 @import url(../Components/text-utils/textutils.css);
 @import url(../Components/toast/toast.css);
 @import url(../Components/navbar/navbar.css);
+@import url(../Components/modal/modal.css);
 
 :root {
   --black: #1f1d1d;

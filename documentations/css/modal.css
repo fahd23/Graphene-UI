@@ -1,0 +1,7 @@
+@import url(../../style.css);
+@import url(../../Components/components.css);
+
+.modal-display {
+  display: flex;
+  justify-content: center;
+}
