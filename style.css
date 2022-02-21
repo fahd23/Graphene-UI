@@ -147,7 +147,7 @@ iframe {
   height: calc(100vh - var(--navbar-height));
   overflow-y: auto;
   background-color: var(--secondary-color);
-  transition: 2s;
+  transition: 0.3s;
 }
 .sidebar-subtitle {
   color: var(--dark-blue);
