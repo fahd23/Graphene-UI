@@ -10,12 +10,14 @@ Will add screen shots here -->
 3. [Badge](https://grapheneui.netlify.app/documentations/docs/badge.html)
 4. [Button](https://grapheneui.netlify.app/documentations/docs/button.html)
 5. [Card](https://grapheneui.netlify.app/documentations/docs/card.html)
-6. [Image](https://grapheneui.netlify.app/documentations/docs/image.html)
-7. [Input](https://grapheneui.netlify.app/documentations/docs/input.html)
-8. [Modal](https://grapheneui.netlify.app/documentations/docs/modal.html)
-9. [Navbar](https://grapheneui.netlify.app/documentations/docs/navbar.html)
-10. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
-11. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
+6. [Grids](https://grapheneui.netlify.app/documentations/docs/grid.html)
+7. [Image](https://grapheneui.netlify.app/documentations/docs/image.html)
+8. [Input](https://grapheneui.netlify.app/documentations/docs/input.html)
+9. [Modal](https://grapheneui.netlify.app/documentations/docs/modal.html)
+10. [Navbar](https://grapheneui.netlify.app/documentations/docs/navbar.html)
+11. [Ratings](https://grapheneui.netlify.app/documentations/docs/rating.html)
+12. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
+13. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
 # Features
 - Lighweight
 - Minimalistic and Customizable
