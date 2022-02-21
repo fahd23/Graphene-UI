@@ -24,7 +24,8 @@
 
 
 # Preview
-![GrapheneUI](https://user-images.githubusercontent.com/64308102/154923421-9b76917d-fe50-4b32-adb4-9b66bcbd4f80.gif)
+![grapheneUI](https://user-images.githubusercontent.com/64308102/154928167-cc700a2f-eb4e-4936-ac6f-2043ce7ba2cc.gif)
+
 
 # Installation
 To configure and get started follow this steps:
