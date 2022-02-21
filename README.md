@@ -5,16 +5,17 @@ As the name suggests, [GrapheneUI](https://grapheneui.netlify.app/) is the light
 <!-- # Preview
 Will add screen shots here -->
 # Components
-1. Alert
-2. Avatar
-3. Badge
-4. Button
-5. Card
-6. Image
-7. Input
-8. Navbar
-9. Text Utilities
-10. Toast
+1. [Alert](https://grapheneui.netlify.app/documentations/docs/alert.html)
+2. [Avatar](https://grapheneui.netlify.app/documentations/docs/avatar.html)
+3. [Badge](https://grapheneui.netlify.app/documentations/docs/badge.html)
+4. [Button](https://grapheneui.netlify.app/documentations/docs/button.html)
+5. [Card](https://grapheneui.netlify.app/documentations/docs/card.html)
+6. [Image](https://grapheneui.netlify.app/documentations/docs/image.html)
+7. [Input](https://grapheneui.netlify.app/documentations/docs/input.html)
+8. [Modal](https://grapheneui.netlify.app/documentations/docs/modal.html)
+9. [Navbar](https://grapheneui.netlify.app/documentations/docs/navbar.html)
+10. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
+11. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
 # Features
 - Lighweight
 - Minimalistic and Customizable
