@@ -1,0 +1,17 @@
+.rating {
+  display: flex;
+  cursor: pointer;
+  gap: 5px;
+  margin: 10px;
+}
+.rating-icon {
+  font-size: 1.2rem;
+  color: var(--gu-green);
+  list-style: none;
+}
+.filled::before {
+  content: "\f005";
+}
+.half-filled::before {
+  content: "\f5c0";
+}
