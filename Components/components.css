@@ -14,6 +14,7 @@
 @import url(../Components/modal/modal.css);
 @import url(../Components/grid/grid.css);
 @import url(../Components/rating/rating.css);
+@import url(../Components/list/list.css);
 
 :root {
   --black: #1f1d1d;
