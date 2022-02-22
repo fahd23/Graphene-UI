@@ -1,0 +1,7 @@
+.gu-slider-container {
+  width: 100%;
+}
+.gu-slider {
+  accent-color: var(--accent-color);
+  width: 100%;
+}
