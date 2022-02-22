@@ -11,11 +11,12 @@
 6. [Grids](https://grapheneui.netlify.app/documentations/docs/grid.html)
 7. [Image](https://grapheneui.netlify.app/documentations/docs/image.html)
 8. [Input](https://grapheneui.netlify.app/documentations/docs/input.html)
-9. [Modal](https://grapheneui.netlify.app/documentations/docs/modal.html)
-10. [Navbar](https://grapheneui.netlify.app/documentations/docs/navbar.html)
-11. [Ratings](https://grapheneui.netlify.app/documentations/docs/rating.html)
-12. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
-13. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
+9. [Lists](https://grapheneui.netlify.app/documentations/docs/list.html)
+10. [Modal](https://grapheneui.netlify.app/documentations/docs/modal.html)
+11. [Navbar](https://grapheneui.netlify.app/documentations/docs/navbar.html)
+12. [Ratings](https://grapheneui.netlify.app/documentations/docs/rating.html)
+13. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
+14. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
 
 # Features
 - Lighweight
