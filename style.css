@@ -134,7 +134,7 @@ iframe {
 }
 .sidebar {
   position: fixed;
-  padding: 1.75rem 2.55rem;
+  padding: 1rem 2.55rem;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -167,7 +167,7 @@ iframe {
 }
 .docs {
   padding: 1rem;
-  margin-left: 19%;
+  margin-left: 18%;
   flex-grow: 1;
 }
 
