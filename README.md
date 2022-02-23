@@ -15,8 +15,9 @@
 10. [Modal](https://grapheneui.netlify.app/documentations/docs/modal.html)
 11. [Navbar](https://grapheneui.netlify.app/documentations/docs/navbar.html)
 12. [Ratings](https://grapheneui.netlify.app/documentations/docs/rating.html)
-13. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
-14. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
+13. [Slider](https://grapheneui.netlify.app/documentations/docs/slider.html)
+14. [Text Utilities](https://grapheneui.netlify.app/documentations/docs/textutils.html)
+15. [Toast](https://grapheneui.netlify.app/documentations/docs/toast.html)
 
 # Features
 - Lighweight
