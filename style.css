@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 *,
 *::before,
@@ -9,10 +10,10 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #f9f7f7;
-  --secondary-color: #dbe2ef;
+  --primary-color: #bebebe;
+  --secondary-color: #f2f2f2;
   --text-color: #222222;
-  --accent-color: #112d4e;
+  --accent-color: #e0dfdf;
   --dark-blue: #3f72af;
   --ow-white: #f6f8fd;
   --green-color: #f1f7ed;
@@ -38,9 +39,9 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 100%;
-  background: var(--ow-white);
+  background: var(--secondary-color);
 }
 a {
   display: inline-block;
@@ -84,6 +85,43 @@ iframe {
   font-weight: 500;
   font-size: 1.3rem;
 }
+.flex-d-clm {
+  flex-direction: column;
+}
+.justify-c-ctr {
+  justify-content: center;
+}
+.margin-top-10 {
+  margin-top: 10rem;
+}
+/* Home Page */
+.home-content {
+  padding: 1rem 2rem 1.5rem;
+  max-width: 50ch;
+  text-align: center;
+}
+.hdr-icons {
+  display: flex;
+  margin-left: auto;
+  color: var(--black);
+  font-size: 1.8rem;
+  gap: 2rem;
+  align-items: center;
+}
+.home-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-btn {
+  width: 10rem;
+  font-size: 1rem;
+  padding: 14px 18px;
+  border-radius: 2px;
+  border: 0px;
+  background-color: var(--accent-color);
+  text-align: center;
+}
 
 .navbar {
   position: sticky;
@@ -100,7 +138,7 @@ iframe {
   padding: 0 2.5rem;
 }
 .navbar a {
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 .header-logo {
   display: flex;
@@ -115,16 +153,16 @@ iframe {
 }
 #btn-ham-burger {
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--text-color);
   border: 0;
   font-size: 1.6rem;
   margin-right: 2rem;
-  /* display: none; */
 }
 .head-title {
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 600;
+  font-family: "Kaushan Script", cursive;
 }
 .main-body {
   display: flex;
@@ -150,14 +188,13 @@ iframe {
   transition: 0.3s;
 }
 .sidebar-subtitle {
-  color: var(--dark-blue);
+  color: var(--text-blue);
   font-size: 1.4rem;
   text-decoration: underline;
 }
 
 .sidebar-link:hover {
   padding-left: 2px;
-  color: var(--accent-color);
 }
 .close-sideBar-btn {
   font-size: 1.5rem;
@@ -179,8 +216,8 @@ iframe {
 
 .gu-icon-container {
   margin: 1rem auto;
-  background: var(--secondary-color);
-  box-shadow: 2px 1px 10px var(--accent-color);
+  background: var(--accent-color);
+  box-shadow: 2px 1px 10px var(---color);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -9,9 +9,9 @@
   list-style: none;
 }
 .stacked {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   margin: 2px;
   padding: 1rem;
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--grey);
   border-radius: 4px;
 }
