@@ -26,7 +26,7 @@
 
 
 # Preview
-![grapheneUI](https://user-images.githubusercontent.com/64308102/154928167-cc700a2f-eb4e-4936-ac6f-2043ce7ba2cc.gif)
+![GrapheneUI](https://user-images.githubusercontent.com/64308102/162120269-992cb46c-48b5-4f96-9e0b-091dd7d0071f.gif)
 
 
 # Installation
